@@ -1,0 +1,5 @@
+If the interpreter is applicative, it will try to evaluate (p) up front and
+enter an infinite loop.
+
+If the interpreter is normative, it will defer evaluating (p), see that our
+predicate expression is true, and return 0, bypassing the infinite loop.

@@ -1,0 +1,2 @@
+The if expression will change the sign of b if it is negative and leave it
+alone otherwise.
