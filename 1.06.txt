@@ -1,0 +1,2 @@
+The "new-if" function will evaluate its parameters eagerly, which will trigger
+infinite loop because its third parameter, "sqrt-iter", calls itself.
